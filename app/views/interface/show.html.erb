@@ -1,0 +1,321 @@
+<section>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-static-top" role="navigation" id="nav-main-member">
+		<div class="col-lg-2 col-sm-2 hidden-sm"></div>
+		<div id="nav-1" class="no-margin col-lg-8 col-sm-12 no-padding">
+			<div id="nav-header-1">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-main">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.php">Socitrad</a>
+			</div>
+			<div id="nav-body-1">
+				<div class="collapse navbar-collapse" id="nav-main">
+
+					<!-- Split button -->
+					<div class="btn-group navbar-btn navbar-right col-lg-2 col-sm-3 no-padding-right">
+						<div class="dropdown-toggle" data-toggle="dropdown">
+							<button type="button" class="btn btn-default btn-block drop-item">
+								<div class="col-lg-10 col-sm-10"><i class="fa fa-cog"></i><span>Membre</span></div>
+								<div class="col-lg-2 col-sm-1 no-padding-left">
+									<span class="caret"></span>
+									<span class="sr-only">Toggle Dropdown</span>
+								</div>
+							</button>
+						</div>
+						<ul class="dropdown-menu" role="menu"> 
+							<li class="drop-item"><a href="#"><i class="fa fa-user"></i><span>Profil</span></a></li>
+							<li class="divider"></li>
+							<li data-toggle="modal" data-target="#signout-modal"><a href="#">Se déconnecter</a></li>
+						</ul>
+					</div>
+
+					<!-- Search bar -->
+					<form class="navbar-form navbar-right col-xs-9 col-sm-6" role="search">
+						<div class="form-group">
+							<label for="search" class="sr-only">Search bar</label>
+							<input type="text" class="form-control" placeholder="Search" name="search">
+						</div>
+						<button type="submit" class="btn btn-default">Ok</button>
+					</form>
+					<!-- / search bar -->
+
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-2 col-sm-2 hidden-sm"></div>
+	</nav>
+  <!-- 
+  <div id="nav-2" class="navbar navbar-default navbar-inverse row" role="navigation">
+    <div class="col-lg-2 col-sm-2 hidden-sm"></div>
+    <div class="col-lg-8 col-sm-8">
+      <ul class="nav navbar-nav col-lg-8 col-sm-8">
+        <li class="col-lg-8 col-sm-9 infos-project">
+          <a href="#" class="pull-left col-lg-9 col-sm-9">
+            <span class="col-lg-9 title-project">Titre du projet</span>
+          </a>
+          <a href="#" class="pull-left col-lg-3 col-sm-3 no-padding">
+            <span class="text-right pull-left no-padding">FR > EN</span>
+          </a>      
+        </li>
+        <li class="col-lg-2 col-sm-3 nb-segments no-padding" data-toggle="tooltip" title="nombre de segments traduits">
+          <a href="#">240<i> / </i>600</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right friends-avatars col-lg-4 col-sm-2 no-padding">
+        <div class="pull-right nav navbar-nav">
+          <li class="show-friends visible-sm">
+            <a href="#">
+              <i class="fa fa-angle-left"></i>
+            </a> 
+          </li>
+          <li>
+
+           <a href="#" data-toggle="modal" data-target="#modal-co-worker"><img src="" alt"" class=""></a>
+         </li>
+         <li>
+           data-toggle="modal" data-target="#modal-co-worker"
+           <a href="#" data-toggle="modal" data-target="#modal-co-worker"><img src="" alt"" class="hidden-sm hidden-xs"></a>
+         </li>
+         <li>
+           data-toggle="modal" data-target="#modal-co-worker"
+           <a href="#" data-toggle="modal" data-target="#modal-co-worker"><img src="" alt"" class="offline hidden-sm hidden-xs"></a>
+         </li>
+         <li>
+           data-toggle="modal" data-target="#modal-co-worker"
+           <a href="#" data-toggle="modal" data-target="#modal-co-worker"><img src="" alt"" class="offline hidden-sm hidden-xs"></a>
+         </li>
+         <li><a href="#" data-toggle="modal" data-target="#modal-add-co-worker"><i class="fa fa-plus primary" data-toggle="tooltip" title="add a co-worker"></i></a></li>
+       </div>
+     </ul>
+   </div>
+    <div class="col-lg-2 col-sm-2 hidden-sm"></div>
+    <div class="col-lg-2 col-sm-2 hidden-sm"></div>
+
+  <div class="col-lg-8 col-sm-8 pull-left">
+    <div id="panel-document-options-navbar" class="col-sm-12 visible-sm pull-left">
+      <div class="switch" id="all-empty-segment">
+        <div class="switch-label">
+          <a href="#">All</a>
+        </div>
+        <div class="switch-btn">
+          <a href="#"></a>
+        </div>
+        <div class="switch-label">
+          <a href="#">Empty</a>
+        </div>
+      </div>
+      <div id="next-empty-segment" class="btn btn-primary no-padding" data-toggle="tooltip" title="Next empty segment">
+        <a href="#next-seg">
+          <i>Next</i>
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2 col-sm-2 hidden-sm"></div>
+
+</div> -->
+
+</section>
+
+<section class="section margin-xl-top pull-left" id="member-main">
+	<div class="col-lg-2 visible-lg">
+		<div class="col-lg-4 no-padding pull-right"></div>
+	</div>
+	<div class="col-lg-8" id="translation-document">
+		<div class="table table-div-striped">
+			<div class="thead" id="top-document">
+				<div class="tr">
+					<div class="td col-lg-6 col-sm-6"><strong>Segments originaux</strong></div>
+					<div class="td col-lg-6 col-sm-6"><strong>Nouveaux segments</strong></div>
+				</div>
+			</div>
+			<div class="tbody">
+				<div class="tr">
+					<!-- id="popover" data-toggle="popover" data-placement="left" data-original-title="" title="" data-container="" data-content=" " -->
+					<div class="tr-wrap">
+						<div class="td col-lg-6 col-sm-6">
+							HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
+						</div>
+						<div class="td col-lg-6 col-sm-6">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+						</div>
+						<div class="translator-popover-container">
+							<div class="translator-popover" style="left:-175px;">
+								<div class="avatar-container">
+									<img src="data/pictures/avatar2.jpg">
+								</div>
+							</div>
+							<div class="translator-popover" style="">
+								<div class="avatar-container">
+									<img src="data/pictures/avatar.png">
+									<div class="arrow-right-cs"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tr">
+					<div class="tr-wrap">
+						<div class="td col-lg-6 col-sm-6">
+							HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
+						</div>
+						<div class="td col-lg-6 col-sm-6">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+						</div>
+					</div>
+				</div>
+				<div class="tr">
+					<div class="tr-wrap">
+						<div class="td col-lg-6 col-sm-6">
+							HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
+						</div>
+						<div class="td col-lg-6 col-sm-6">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+						</div>
+					</div>
+				</div>
+				<div class="tr">
+					<div class="tr-wrap">
+						<div class="td col-lg-6 col-sm-6">
+							HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
+							HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
+							HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
+							HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
+						</div>
+						<div class="td col-lg-6 col-sm-6">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+						</div>
+					</div>
+				</div>
+				<div class="tr">
+					<div class="tr-wrap">
+						<div class="td col-lg-6 col-sm-6">
+							HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
+						</div>
+						<div class="td col-lg-6 col-sm-6">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+						</div>
+					</div>
+				</div>
+				<div class="tr">
+					<div class="tr-wrap">
+						<div class="td col-lg-6 col-sm-6">
+							HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
+						</div>
+						<div class="td col-lg-6 col-sm-6">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, mollitia, magni voluptate delectus minima dolorem ipsam beatae at omnis saepe ab expedita nulla laboriosam suscipit eaque. Hic, neque inventore placeat!
+						</div>
+					</div>
+				</div>
+				<div class="popover"></div>
+			</div> <!-- / div.tbody -->
+		</div> <!-- / div.table -->
+
+	</div>
+	<div class="col-lg-2 visible-lg">
+
+		<div id="panel-document-options" class="visible-lg">
+			<div id="next-empty-segment" class="btn btn-primary no-padding pull-left" data-toggle="tooltip" title="Next empty segment">
+				<a href="#next-seg">
+					<i>Next</i>
+					<i class="fa fa-angle-down"></i>
+				</a>
+			</div>
+			<div class="switch col-lg-12 col-sm-12 pull-left" id="all-empty-segment">
+				<div class="switch-label">
+					<a href="#">All</a>
+				</div>
+				<div class="switch-btn">
+					<a href="#"></a>
+				</div>
+				<div class="switch-label">
+					<a href="#">Empty</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<section class="row navbar-fixed-bottom" id="translation-bar">
+  <aside class="col-lg-3 col-sm-3 side-left">
+    <div class="side-left-wrap">
+      <div class="list-group no-margin">
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-heading">Lorem Ipsum</h4>
+          <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
+        </a>
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-heading">Lorem Ipsum</h4>
+          <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
+        </a>
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-heading">Lorem Ipsum</h4>
+          <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
+        </a>
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-heading">Lorem Ipsum</h4>
+          <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
+        </a>
+      </div>
+    </div>
+  </aside>
+  <div class="col-lg-6 col-sm-6 translation-bar-main">
+    <form role="form">
+      <div class="form-group no-margin">
+        <!-- <label for="segmentOrigin" class="sr-only">Segment à traduire</label> -->
+        <div class="well" id="segment-original"><blockquote class="no-margin">Segment à traduire</blockquote></div>
+        <!-- <input class="form-control" id="segmentOrigin" type="text" placeholder="Segment à traduire" disabled> -->
+        <label for="segmentTranslate" class="sr-only">Zone de traduction</label>
+        <textarea id="segmentTranslate" class="form-control"></textarea></div>
+      </form>
+      <!-- <input id="" type="text" placeholder="Segment à traduire"> -->
+    </div>
+    <!-- Nav tabs -->
+    <aside class="col-lg-3 col-sm-3 side-right">
+      <div class="nav-content">
+        <ul class="nav nav-tabs  no-padding">
+          <li class="active"><a href="#comments" data-toggle="tab">Commentaires</a></li>
+          <li><a href="#historic" data-toggle="tab">Historique</a></li>
+        </ul>
+      </div>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="comments">
+
+
+         <div class="list-group">
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Lorem Ipsum</h4>
+            <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Lorem Ipsum</h4>
+            <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
+          </a>
+         
+        </div>
+
+      </div>
+      <div class="tab-pane" id="historic">
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Lorem Ipsum</h4>
+            <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+  </section>

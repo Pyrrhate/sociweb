@@ -1,0 +1,40 @@
+<div class="col-lg-4 col-sm-3 col-xs-6">
+	<figure class="avatar col-lg-8 col-lg-offset-2 col-sm-12" id="avatar-profil">
+		<ul class="list-unstyled">
+			<li class=""><img class="img-thumbnail" src="data/pictures/avatar.png" alt="avatar du membre"></li>
+			<li class="edit-avatar">
+				<a href="#" class="btn btn-default edit" role="button" data-toggle="modal" data-target="#uploadpicture-modal">edit</a>
+				<!-- modal Upload Avatar -->
+				<div class="modal fade" id="uploadpicture-modal" tabindex="-1" role="dialog" aria-labelledby="upload picture" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h1 class="modal-title text-center" id="">Changer l'avatar</h1>
+							</div>
+							<div class="modal-body">
+								<form role="form" id="form-uploadpicture">
+									<div class="form-group">
+										<label for="title-uploadpicture">Parcourir</label>
+										<div class="input-group input-group-lg">
+											<span class="input-group-addon"><i class="fa fa-folder-open-o"></i></span>
+											<input type="file" class="form-control" id="title-uploadpicture" placeholder="Titre de projet">
+										</div>
+									</div><!-- /.form-group -->
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary btn-lg btn-block">Ok</button>
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div><!-- /.modal --> 
+			</li>
+		</ul>
+		<figcaption class="text-center">
+			<h2><small>nom du membre</small></h2>
+			<p><a href="#">adress@mail.com</a></p>
+		</figcaption>
+
+	</figure>
+</div>

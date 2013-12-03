@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sociweb</title>
+	<%= stylesheet_link_tag    "application", media: "all" %>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<%= csrf_meta_tags %>
+</head>
+<body>
+
+	<%= yield %>
+	<%= render "layouts/footer" %>
+</body>
+<%= javascript_include_tag "application" %>
+</html>
+
