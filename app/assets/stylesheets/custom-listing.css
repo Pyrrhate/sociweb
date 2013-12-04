@@ -1,0 +1,171 @@
+
+
+/*****************************
+Listing Page
+*****************************/
+
+/*__Listing Projects__*/
+#projects {
+	border:0;
+}
+#projects .panel-heading {
+	background-color: #f5f5f5;
+}
+#projects .panel-heading .badge {
+	/*background-color: #fff;*/
+	/*color:#428bca;*/
+}
+#projects #btn-add-project {
+	padding:0;
+}
+#projects .fa-plus {
+	/*color:#428bca;*/
+}
+#projects .project-title{
+	padding: 0;
+}
+#projects .panel-title{
+	color: #428bca;
+}
+#projects .panel.panel-default .panel-heading:hover span,
+#projects .panel-active .panel-title{
+	color: #fff;
+}
+#projects .panel.panel-default {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	margin-top:0;
+	/*margin-bottom: -1px;*/
+}
+#projects .panel-heading.projects-title {
+	background-color: #f5f5f5;
+}
+#projects .panel-heading {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 15px 10px;
+	background-color: rgb(255,255,255);
+	cursor: pointer;
+}
+#projects .panel-heading,
+#projects .panel-title {
+	width: 100%;
+}
+#projects #btn-new-project {
+	margin: 10px 0;
+}
+#projects .panel-heading:hover {
+	background-color: #c5c5c5;
+}
+#projects .panel-heading:hover a{
+	color:#fff;
+}
+#projects .new-project .panel-heading {
+	background-color: #fff;
+}
+#projects .progress{
+	margin-bottom: 0;
+}
+#projects .panel.panel-default.new-project .panel-heading:hover {
+	background-color: rgb(255,255,255);
+	cursor: default;
+} 
+#projects .panel-heading .col-lg-3 {
+	padding-right: 0;
+}
+#projects-heading,
+#projects-heading li{
+/* 	-webkit-border-bottom-left-radius: 0;
+-moz-border-bottom-left-radius: 0;
+border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+-moz-border-bottom-right-radius: 0;
+border-bottom-right-radius: 0; */
+border:0;
+}
+#projects-heading h4 {
+	border-bottom: solid 2px #e3e3e3;
+	padding-bottom: 10px;
+}
+#projects .panel-body {
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	color: #428bca;
+	cursor: default;
+	width: 100%;
+}
+#projects .panel-body .list-group-item:hover {
+	color: #fff;
+}
+#projects .panel-active {
+	background-color: #f5f5f5;
+}
+/*#projects .panel-active:hover .progress,*/
+#projects .panel-body .progress{
+	border: solid 2px #fff;
+}
+#projects .list-group-item:hover .progress{
+	border: solid 2px #c5c5c5;
+}
+#projects .panel-heading:hover .progress{
+	/*border: solid 2px #f5f5f5;*/
+}
+#projects .panel-active,
+#projects .panel-active:hover {
+	background-color: #c5c5c5;
+}
+#projects .panel.panel-default .panel-active a{
+	color:#fff;
+}
+#projects .panel-body .list-group-item:hover {
+	background-color: #c5c5c5;
+}
+#projects .panel-body .list-group-item:hover a{
+	color: #fff;
+}
+
+/*__/listing projects__*/
+
+/* avatar - profil */
+
+#avatar-profil ul {
+	margin:0;
+}
+.avatar li {
+	position: relative;
+	border:0;
+}
+#avatar-profil img {
+	width: 100%;
+}
+#avatar-profil .edit-avatar {
+	opacity:0;
+}
+#avatar-profil ul:hover .edit-avatar {
+	opacity: 1;
+	-webkit-transition: opacity 1000ms ;
+	-moz-transition: opacity 1000ms ;
+	-ms-transition: opacity 1000ms ;
+	-o-transition: opacity 1000ms ;
+	transition: opacity 1000ms ;
+}
+#avatar-profil figcaption h2{
+	margin-top:0;
+	margin-bottom: 5px;
+}
+#avatar-profil .edit-avatar a {
+	bottom: 0em;
+	z-index:1;
+	position: absolute;
+	width: 100%;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	background-color: rgba(255,255,255,0.8);
+}
+
+
+/* /avatar - profil */
+
+/*__/listing page__*/

@@ -6,8 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Project.create!(name: "Super projet 1")
-Project.create!(name: "Super projet 2")
-Project.create!(name: "Super projet 3")
-Project.create!(name: "Super projet 4")
-Project.create!(name: "Super projet 5")
+Project.create!(name: "Super projet 1", lang: "FR", segment: "540")
+Project.create!(name: "Super projet 2", lang: "ES", segment: "328")
+Project.create!(name: "Super projet 3", lang: "EN", segment: "125")
+Project.create!(name: "Super projet 4", lang: "IT", segment: "873")
+Project.create!(name: "Super projet 5", lang: "NL", segment: "44")

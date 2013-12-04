@@ -15,6 +15,7 @@
         $('.carousel').carousel({
           interval: 4000
         });
+        // $('.collapse').collapse();
         $('.dropdown-toggle').dropdown();
         $('.delete').alert();
         $('.co-worker').tooltip();

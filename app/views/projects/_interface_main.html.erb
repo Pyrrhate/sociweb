@@ -1,0 +1,51 @@
+<section class="section margin-xl-top pull-left" id="member-main">
+	<div class="col-lg-2 visible-lg">
+		<div class="col-lg-4 no-padding pull-right"></div>
+	</div>
+	<div class="col-lg-8" id="translation-document">
+		<div class="table table-div-striped">
+			<div class="thead" id="top-document">
+				<div class="tr">
+					<div class="td col-lg-6 col-sm-6"><strong>Segments originaux</strong></div>
+					<div class="td col-lg-6 col-sm-6"><strong>Nouveaux segments</strong></div>
+				</div>
+			</div>
+			<div class="tbody">
+				<div class="tr">
+					<div class="tr-wrap">
+						<div class="td col-lg-6 col-sm-6">Segment</div>
+						<div class="td col-lg-6 col-sm-6">traduction</div>
+					</div>
+				</div>
+				<% if @project.name.length > 20 %>
+				<%= @project.name %>
+				<% end %>
+
+			</div><!-- / div.tbody -->
+		</div> <!-- / div.table -->
+
+	</div>
+	<div class="col-lg-2 visible-lg">
+
+		<div id="panel-document-options" class="visible-lg">
+			<div id="next-empty-segment" class="btn btn-primary no-padding pull-left" data-toggle="tooltip" title="Next empty segment">
+				<a href="#next-seg">
+					<i>Next</i>
+					<i class="fa fa-angle-down"></i>
+				</a>
+			</div>
+			<div class="switch col-lg-12 col-sm-12 pull-left" id="all-empty-segment">
+				<div class="switch-label">
+					<a href="#">All</a>
+				</div>
+				<div class="switch-btn">
+					<a href="#"></a>
+				</div>
+				<div class="switch-label">
+					<a href="#">Empty</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>

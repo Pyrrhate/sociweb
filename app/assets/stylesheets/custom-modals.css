@@ -1,0 +1,45 @@
+/* ADD CO-WORKER ---MODAL--- */
+
+.co-worker {
+	float:left;
+	margin: 0 1.5% 10px 0;
+	width: 8.6%;
+	position: relative;
+}
+.co-worker a {
+	cursor: pointer;
+	margin: 0;
+	display: block;
+}
+.co-worker img {
+	width: 100%;
+	background-color: #222;
+	display: block;
+}
+.co-worker img,
+img.co-worker-avatar {
+	border: 1px solid #ddd;
+}
+img.co-worker-avatar {
+	width: 47px;
+}
+
+.last-item {
+	margin-right: 0;
+}
+.co-worker i.fa {
+	position: absolute;
+	display: block;
+	width: 100%;
+	font-size: 24px; 
+	vertical-align: middle;
+	line-height: 47px;
+	height: 47px;
+	text-align: center;
+	color: #428bca;
+}
+/* /co-worker */
+
+.co-worker i.fa.fa-ban {
+	color : #d9534f;
+}
