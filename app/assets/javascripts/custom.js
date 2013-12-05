@@ -43,7 +43,7 @@
           $(handler.segmentActive).removeClass("tr-active");
           if(handler.segmentActive!=this){handler.segmentActive=this;}else{handler.segmentActive='';}
         }
-        ); 
+        );
 
         $('.btn-inscription').bind("click",function(){
           // $('.carousel').carousel('pause');

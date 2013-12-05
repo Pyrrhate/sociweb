@@ -2,11 +2,11 @@
   <div class="col-lg-8 col-sm-8 col-lg-offset-2 col-sm-offset-2">
     <ul class="nav navbar-nav col-lg-8 col-sm-8 col-lg-offset-2">
       <li class="col-lg-8 col-sm-9 infos-project no-padding">
-        <a href="#" class="col-lg-9 col-sm-9">Titre du projet</a>
-        <a href="#" class="col-lg-3 col-sm-3 text-right">FR > EN</a>   
+        <a href="#" class="col-lg-9 col-sm-9"><%= @project.name %></a>
+        <a href="#" class="col-lg-3 col-sm-3 text-right">FR > <%= @project.language_code %></a>
       </li>
       <li class="col-lg-2 col-sm-3 nb-segments no-padding" data-toggle="tooltip" title="nombre de segments traduits">
-        <a href="#">240 / 600</a>
+        <a href="#">240 / <%= @project.segments_count %></a>
       </li>
     </ul>
     <ul class="nav navbar-nav friends-avatars col-lg-4 col-sm-4 no-padding">
@@ -14,7 +14,7 @@
         <li class="show-friends visible-sm">
           <a href="#">
             <i class="fa fa-angle-left"></i>
-          </a> 
+          </a>
         </li>
         <li class="member">
           <a href="#" data-toggle="modal" data-target="#modal-co-worker"><img src="/assets/members/avatar2.jpg" alt""></a>
@@ -55,4 +55,4 @@
       </div>
     </div>
   </div>
-</nav> 
+</nav>

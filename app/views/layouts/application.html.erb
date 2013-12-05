@@ -2,15 +2,17 @@
 <html>
 <head>
 	<title>Sociweb</title>
-	<%= stylesheet_link_tag    "application", media: "all" %>
+	<%= stylesheet_link_tag "application", media: "all" %>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<%= csrf_meta_tags %>
 </head>
-<body>
 
+<body id="<%= "#{params[:controller]}-#{params[:action]}" %>" ng-app="mainApp">
 	<%= yield %>
 	<%= render "layouts/footer" %>
 </body>
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
 <%= javascript_include_tag "application" %>
 </html>
 
