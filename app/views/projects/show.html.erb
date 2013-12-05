@@ -1,12 +1,8 @@
 <div class="page" ng-controller="ProjectsShowCtrl">
 	<%= render 'layouts/nav_member' %>
-	<%= render 'nav_interface' %>
-	<%= render 'interface_main' %>
-	<%= render 'interface_bar' %>
+	<%= render 'show_nav' %>
+	<%= render 'show_main' %>
+	<%= render 'show_bar' %>
 	<%= render 'modal_coworker' %>
 	<%= render 'modal_add_coworker' %>
-
-  <ul>
-    <li ng-repeat="segment in segments">{{ segment.name }}</li>
-  </ul>
 </div>

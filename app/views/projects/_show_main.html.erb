@@ -11,13 +11,16 @@
 				</div>
 			</div>
 			<div class="tbody">
-				<div class="tr">
+				<div class="tr" ng-repeat="segment in segments | orderBy:'position'">
 					<div class="tr-wrap">
-						<div class="td col-lg-6 col-sm-6">Segment</div>
-						<div class="td col-lg-6 col-sm-6">traduction</div>
+						<div class="td col-lg-6 col-sm-6">
+							{{ segment.source }}
+						</div>
+						<div class="td col-lg-6 col-sm-6">
+							{{ segment.target }}
+						</div>
 					</div>
-				</div>
-
+				</div><!-- / div.tr -->
 			</div><!-- / div.tbody -->
 		</div> <!-- / div.table -->
 

@@ -1,5 +1,5 @@
 class SegmentsController < ApplicationController
-  def index
+    def index
     segments = [
       {
         :id       => 1,
@@ -32,7 +32,6 @@ class SegmentsController < ApplicationController
         :target   => "Your mother is a young startup in Hainaut"
       }
     ]
-
     render :json => segments
+    end
   end
-end
