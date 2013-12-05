@@ -33,7 +33,7 @@
 	padding-left: 0;
 }
 #nav-main-interface .nb-segments a, #nav-main-interface .friends-avatars .fa {
-	color:#428bca;
+	color: #428bca;
 }
 #nav-main-interface a {
 	color: #fff;
@@ -61,9 +61,8 @@
 	width:40px;
 	background-color: #222;
 }
-
 .friends-avatars img.offline {
-	opacity: 0.5;
+	opacity: 0.3;
 	border-color: #111;
 }
 .member-avatar {
@@ -76,7 +75,7 @@
 	display: block;
 	height: 40px;
 }
-#nav-main-interface .coworker a{
+#nav-main-interface .coworker a, #nav-main-interface .member a {
 	cursor: pointer;
 }
 /* _/ modal */

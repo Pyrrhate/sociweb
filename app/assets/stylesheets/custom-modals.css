@@ -38,8 +38,25 @@ img.co-worker-avatar {
 	text-align: center;
 	color: #428bca;
 }
-/* /co-worker */
 
 .co-worker i.fa.fa-ban {
 	color : #d9534f;
 }
+/* /co-worker */
+
+
+/* modals */
+#inscription-modal {
+	width: 100%;
+	height:100%;
+	background-color: rgba(50,50,50,0.9);
+}
+#home-services .signup {
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	padding: 30px 0;
+}
+#signin-modal, #signup-modal {
+	overflow-y:auto;
+}
+/* / modals */
