@@ -3,7 +3,7 @@
 		<div class="col-lg-4 no-padding pull-right"></div>
 	</div>
 	<div class="col-lg-8" id="translation-document">
-		<div class="table table-div-striped">
+		<div class="table">
 			<div class="thead" id="top-document">
 				<div class="tr">
 					<div class="td col-lg-6 col-sm-6"><strong>Segments originaux</strong></div>
@@ -11,7 +11,7 @@
 				</div>
 			</div>
 			<div class="tbody">
-				<div class="tr" ng-repeat="segment in segments | orderBy:'position'">
+				<div class="tr" ng-repeat="segment in segments | orderBy:'position'" ng-class-odd="'odd'" ng-class-even="'even'" ng-click="selectSegment(segment.id)" ng-class="{'tr-active': segment.id == selected}" id="{{'segment-'+segment.id}}">
 					<div class="tr-wrap">
 						<div class="td col-lg-6 col-sm-6">
 							{{ segment.source }}

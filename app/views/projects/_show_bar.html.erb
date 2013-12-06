@@ -25,17 +25,17 @@
 		<form role="form">
 			<div class="form-group no-margin">
 				<div class="well" id="segment-original">
-					<blockquote class="no-margin">Segment à traduire</blockquote>
+					<blockquote class="no-margin">{{segments[selected-1].source}}</blockquote>
 				</div>
-				<label for="segmentTranslate" class="sr-only">Zone de traduction</label>
-				<textarea id="segmentTranslate" class="form-control"></textarea>
+				<label for="segmentTranslate" class="sr-only">Segment to translate</label>
+				<textarea id="segmentTranslate" class="form-control">{{segments[selected-1].target}}</textarea>
 			</div>
 		</form>
 	</div>
 	<!-- Nav tabs -->
 	<aside class="col-lg-3 col-sm-3 side-right">
 		<div class="nav-content">
-			<ul class="nav nav-tabs  no-padding">
+			<ul class="nav nav-tabs no-padding">
 				<li class="active"><a href="#comments" data-toggle="tab">Commentaires</a></li>
 				<li><a href="#historic" data-toggle="tab">Historique</a></li>
 			</ul>
