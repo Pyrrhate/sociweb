@@ -28,22 +28,12 @@
       segmentActive:'',
       init:function(){
         console.log('handler-init');
-        $('.switch').bind('click',function(){
-          $(this).toggleClass('disabled');
-        });
 
         $('#projects .panel-document').bind('click',function(){
           $(this).toggleClass('panel-active');
           $(handler.panelListingCollapsed).removeClass('panel-active');
           if(handler.panelListingCollapsed!=this){handler.panelListingCollapsed=this;}else{handler.panelListingCollapsed='';}
         });
-
-     /*   $('#translation-document .tr').bind('click',function(){
-          $(this).toggleClass("tr-active");
-          $(handler.segmentActive).removeClass("tr-active");
-          if(handler.segmentActive!=this){handler.segmentActive=this;}else{handler.segmentActive='';}
-          }
-        );*/
 
         $('.btn-inscription').bind("click",function(){
           // $('.carousel').carousel('pause');

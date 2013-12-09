@@ -216,26 +216,28 @@
 
 /* _\ all-empty-segment - switch btn*/
 
-#all-empty-segment {
-	position: relative;
+
+.switch#all-empty-segment {
+	margin-left: 20px;
+}
+.switch, .switch a {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid;
 }
 .switch{
-	width: 140px;
-	float:left;
-}
-.switch div {
-	float: left;
-}
-.switch .switch-btn a {
+	position: relative;
 	background-color: #ddd;
-	border-color: #ccc;
-}
-.switch div {
-	width: 50%;
+	border-color:#ccc;
+	padding: 0;
+	width: 112px;
+	height: 36px;
+	cursor: pointer;
 }
 .switch a {
-	background-color: #3276b1;
-	border: 1px solid #285e8e;
+	position: relative;
+	bottom: 1px;
 	padding: 6px;
 	height: 36px;
 	display: block;
@@ -244,38 +246,27 @@
 	color:#fff;
 	text-align: center;
 	text-decoration: none;
+	width: 50%;
+	border-color: #285e8e;
+	background-color: #3276b1;
 }
-.switch .switch-label:last-child,
-.switch.disabled .switch-label:first-child{
-	display: none;
+.switch a:first-child {
+	float:left;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
-.switch.disabled .switch-label:last-child{
-	display: block;
-}
-.switch .switch-label a,
-.switch.disabled .switch-label a,
-.switch.disabled .switch-btn a{
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	-webkit-border-top-left-radius: 4px;
-	-moz-border-top-left-radius: 4px;
-	border-top-left-radius: 4px;
-	-webkit-border-bottom-left-radius: 4px;
-	-moz-border-bottom-left-radius: 4px;
-	border-bottom-left-radius: 4px;
-}
-.switch .switch-btn a,
-.switch.disabled .switch-label a{
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	-webkit-border-top-right-radius: 4px;
-	-moz-border-top-right-radius: 4px;
-	border-top-right-radius: 4px;
-	-webkit-border-bottom-right-radius: 4px;
-	-moz-border-bottom-right-radius: 4px;
-	border-bottom-right-radius: 4px;
+.switch a:last-child {
+	float:right;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
 }
 /*  _/ all-empty-segment - switch btn */
 /* / panel-document-options */

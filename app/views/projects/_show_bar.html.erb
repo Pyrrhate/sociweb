@@ -25,10 +25,10 @@
 		<form role="form">
 			<div class="form-group no-margin">
 				<div class="well" id="segment-original">
-					<blockquote class="no-margin">{{segments[selected-1].source}}</blockquote>
+					<blockquote class="no-margin">{{segments[selected].source}}</blockquote>
 				</div>
 				<label for="segmentTranslate" class="sr-only">Segment to translate</label>
-				<textarea id="segmentTranslate" class="form-control">{{segments[selected-1].target}}</textarea>
+				<textarea id="segmentTranslate" class="form-control" ng-model="segments[selected].target"></textarea>
 			</div>
 		</form>
 	</div>
