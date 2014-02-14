@@ -1,4 +1,4 @@
-angular.module('mainApp').controller('ProjectsShowCtrl', function($scope,$http){
+angular.module('mainApp').controller('ProjectsShowCtrl', ['$scope', '$http', function($scope,$http){
   $http({method: 'GET', url:'segments'}).
   success(function(data){
     $scope.segments = data ;
@@ -34,7 +34,4 @@ angular.module('mainApp').controller('ProjectsShowCtrl', function($scope,$http){
       }
     }
   }
-});/* / controller */
-$(document).ready(function() {
-  console.log('index-init');
-});
+}]);
